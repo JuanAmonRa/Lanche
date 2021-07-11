@@ -17,5 +17,9 @@ public class Utilit {
         }
     }
 
+    public void limpaTela(JTabbedPane jPDadosPessoais) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }

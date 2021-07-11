@@ -1,51 +1,22 @@
 package projeto.model;
 
 public class Cli {
-    private int id;
-    private String nome;
-    private String rg;
-    private String cpf;
+
     private String email;
-    private String telefone;
     private String celular;
-    private String cep;
     private String endereco;
-    private int numero;
-    private String complemento;
-    private String bairro;
-    private String cidade;
-    private String uf;  
+    private int quantidade;
+    private String adicional;
+    private String especiais;
+    private String uf;
+    private String sabor;
 
-    public int getId() {
-        return id;
+    public String getSabor() {
+        return sabor;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getRg() {
-        return rg;
-    }
-
-    public void setRg(String rg) {
-        this.rg = rg;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setSabor(String sabor) {
+        this.sabor = sabor;
     }
 
     public String getEmail() {
@@ -56,28 +27,12 @@ public class Cli {
         this.email = email;
     }
 
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
     public String getCelular() {
         return celular;
     }
 
     public void setCelular(String celular) {
         this.celular = celular;
-    }
-
-    public String getCep() {
-        return cep;
-    }
-
-    public void setCep(String cep) {
-        this.cep = cep;
     }
 
     public String getEndereco() {
@@ -88,36 +43,28 @@ public class Cli {
         this.endereco = endereco;
     }
 
-    public int getNumero() {
-        return numero;
+    public int getQuantidade() {
+        return quantidade;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
-    public String getComplemento() {
-        return complemento;
+    public String getAdicional() {
+        return adicional;
     }
 
-    public void setComplemento(String complemento) {
-        this.complemento = complemento;
+    public void setAdicional(String adicional) {
+        this.adicional = adicional;
     }
 
-    public String getBairro() {
-        return bairro;
+    public String getEspeciais() {
+        return especiais;
     }
 
-    public void setBairro(String bairro) {
-        this.bairro = bairro;
-    }
-
-    public String getCidade() {
-        return cidade;
-    }
-
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
+    public void setEspeciais(String especiais) {
+        this.especiais = especiais;
     }
 
     public String getUf() {
@@ -127,5 +74,6 @@ public class Cli {
     public void setUf(String uf) {
         this.uf = uf;
     }
+
     
 }
